@@ -101,7 +101,7 @@ async def help_command(update, context):
 
 # Function to set up the Telegram bot using Webhook
 async def setup_webhook():
-    webhook_url = f"https://greentree-hole-ayeerwlgh-rokon-khs-projects.vercel.app/webhook"
+    webhook_url = f"https://hook2-rokon-khs-projects.vercel.app/webhook"
     bot = Bot(token=TELEGRAM_BOT_TOKEN)
     bot.set_webhook(url=webhook_url)
 
